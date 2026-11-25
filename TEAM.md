@@ -5,7 +5,8 @@
 - Tên nhóm: TenNhomLab13
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-TenNhomLab13-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: `https://github.com/sontpm/K5-L3B-DAY13-TenNhomLab13-LaunchEconomics` (nhánh đang phát triển phần TV1: `sontpm`)
+- URL repo, nhánh nộp, commit chốt: `https://github.com/sontpm/K5-L3B-DAY13-TenNhomLab13-LaunchEconomics`, nhánh nộp: main, commit chốt: 
+41b1054
 
 ## Thành viên
 
