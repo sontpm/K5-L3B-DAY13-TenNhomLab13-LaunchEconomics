@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — <HoTenKhongDau>-<MSSV>
+# Báo cáo cá nhân - Nguyễn Quang Huy-2A202603768
 
 ## 1. Thông tin thành viên
 
