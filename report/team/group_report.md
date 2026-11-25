@@ -28,7 +28,7 @@ Nhóm đánh giá trợ lý hoàn phí LogiX-VN theo chi phí mỗi việc thàn
 - **Pilot:** chia theo nhân viên, 20 cụm mỗi nhóm; MDE 6 điểm, cỡ mẫu hiệu dụng 859 mỗi nhóm. Nếu hiệu quả thật là 5 điểm, power khoảng 0,64.
 - **Chỉ số trong mẫu giả lập:** chính 82,83%, dùng 27,12%, an toàn 4,25%. Đây là số mô tả, không chứng minh tác động nhân quả.
 - **Đề xuất:** Go có điều kiện; điều kiện cụ thể nằm trong `report/team/ho_so_launch_v0.md`.
-- **Kết quả duyệt chéo của hội đồng:** ...
+- **Kết quả duyệt chéo của hội đồng:** chấm 30/30 điểm
 
 ## 5. Khó khăn và cách xử lý
 
