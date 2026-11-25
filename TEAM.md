@@ -14,7 +14,7 @@
 |   1 | Trần Phạm Minh Sơn | 2A202603802 | 26ai.sontpm@vinuni.edu.vn | sontpm | Người viết code (nửa đầu: A, B) & Event (E1) |
 |   2 |        |      |       |        |         |
 |   3 |        |      |       |        |         |
-|   4 |        |      |       |        |         |
+|   4 | Đào Nguyễn Quang Thanh | 2A202603754 | 26ai.thanhdnq@vinuni.edu.vn | ThanhDao11 | Người gắn nhãn 2 kiêm giữ hồ sơ tổng |
 
 Bốn vai của lab:
 
@@ -53,16 +53,18 @@ Sao chép mục dưới đây cho từng thành viên.
 - `src/lab13.py` chạy qua cả 3 phép thử A1 (`Ba phép thử đáp án biết trước: ĐẠT`: 1,20 · 1,25 · 1,25), tính ra CPS = 4.472 đ [simulated] (16,3× hoá đơn 274,7 đ/yêu cầu), chi phí cả hệ thống thấp nhất ở giới hạn 2 lần chạy (6.901.220 đ [simulated]).
 - Bảng event trong `report/team/chi_so.md` và báo cáo cá nhân `report/team/2A202603802_TranPhamMinhSon.md`.
 
-## HoVaTen-MSSV
+## DaoNguyenQuangThanh-2A202603754
 
 ### Phần việc phụ trách
 
--
+- Thành viên 4 — Người gắn nhãn 2: gắn nhãn độc lập 20 ca lỗi; sau khi đối chiếu với thành viên 3, tính đồng thuận và hoàn thiện bảng khắc phục 5 loại lỗi.
+- Giữ hồ sơ tổng: tổng hợp `ho_so_launch_v0.md` và hoàn thiện `group_report.md` sau duyệt chéo.
+- Cùng nhóm tham gia duyệt chéo và hoàn thiện `phieu_cham.md`.
 
 ### Đóng góp cụ thể
 
--
+- Đang thực hiện theo phân công; cập nhật các kết quả và phần việc đã hoàn thành sau từng checkpoint.
 
 ### Bằng chứng
 
--
+- Bổ sung file, commit hoặc kết quả cụ thể sau khi hoàn thành các phần việc.
