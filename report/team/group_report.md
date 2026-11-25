@@ -39,7 +39,7 @@ Nhóm đánh giá trợ lý hoàn phí LogiX-VN theo chi phí mỗi việc thàn
 
 - **Trần Phạm Minh Sơn (2A202603802):** viết và chạy code cho mô hình chi phí A–B; xây dựng danh sách event và đối chiếu event với chỉ số E1.
 - **Nguyễn Quang Huy (2A202603768):** kiểm tra chéo các phép tính A–B; viết code tính cỡ mẫu/power cho D và các chỉ số E1; điền, đối chiếu bảng số liệu.
-- **Đỗ Minh Thanh (2A202603793):** gắn nhãn độc lập 20 ca lỗi, đối chiếu nhãn và xây dựng bảng khắc phục; hoàn thiện kế hoạch pilot, gồm thiết kế chia nhóm và luật dừng.
+- **Đỗ Minh Thanh (2A202603793):** gắn nhãn độc lập 20 ca lỗi, đối chiếu nhãn và xây dựng bảng khắc phục; viết phần trả lời, diễn giải A–B trong `bang_chi_phi.md`; soạn kế hoạch pilot D dựa trên số liệu cỡ mẫu; đề xuất hai chỉ số mới và bảng rủi ro kinh tế E2 trong `chi_so.md`.
 - **Đào Nguyễn Quang Thanh (2A202603754):** gắn nhãn độc lập 20 ca lỗi; tổng hợp hồ sơ launch và báo cáo nhóm từ các kết quả đã được kiểm tra; phối hợp hoàn thiện bảng khắc phục và hồ sơ duyệt chéo.
 
 ## 7. Hạn chế và hướng cải thiện
