@@ -7,8 +7,8 @@
 | Chính (kết quả) | % yêu cầu đóng trong 24 giờ và không mở lại trong 7 ngày | `dong_trong_24h` bằng 1 và `mo_lai_trong_7_ngay` bằng 0, chia tổng số yêu cầu | Chỉ số trong đợt chạy thử là 82,83% (994/1.200) |
 | Dùng | Tỉ lệ bỏ qua gợi ý | `quyet_dinh_xem_lai` là `sua` hoặc `bo`, chia số yêu cầu được xem lại | Chỉ số trong đợt chạy thử là 27,12% (48/177) |
 | An toàn | Tỉ lệ lỗi lọt đến khách | `mo_lai_trong_7_ngay` bằng 1, chia tổng số yêu cầu | Chỉ số trong đợt chạy thử là 4,25% (51/1.200) |
-| Dùng | Nhóm tự đề xuất: ... | ... | Không cần tính |
-| An toàn | Nhóm tự đề xuất: ... | ... | Không cần tính |
+| Dùng | Tỉ lệ yêu cầu can thiệp có hiển thị gợi ý | Số yêu cầu arm `can_thiep` có `agent_suggestion_shown` / tổng yêu cầu arm `can_thiep` | Không cần tính |
+| An toàn | Tỉ lệ sai số tiền trong mẫu kiểm toán | Số bản ghi `audit_sample_checked` có `so_tien_da_hoan` khác `so_tien_dung` / tổng bản ghi kiểm toán | Không cần tính |
 
 Viết "chỉ số trong đợt chạy thử là …", không viết "trợ lý đã nâng chỉ số": đợt chạy thử không có nhóm đối chứng.
 
@@ -43,5 +43,6 @@ Viết "chỉ số trong đợt chạy thử là …", không viết "trợ lý 
 
 | Rủi ro | Tác động đã tính | Dấu hiệu theo dõi | Hành động | Người phụ trách |
 | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+| Số ca làm lại tăng gấp đôi | CPS tăng 51,8%, lên 6.787 đ (simulated) | Tỉ lệ làm lại >7% trong một tuần; mẫu hiện tại trong phạm vi là 4,9% (simulated) | Thu hẹp về `noi_dia`, rà 20 trace làm lại | PM trợ lý hoàn phí |
+| Phải xem lại 100% kéo dài | CPS 11.743 đ (0,98×) với 9 phút làm lại; 12.415 đ (1,03×) với 15,3 phút (simulated) | Tỉ lệ xem lại >50% cuối bước rollout 25% | Giảm xem lại theo bậc khi tỉ lệ sửa và bỏ dưới 15% | Trưởng nhóm CSKH |
+| Khối lượng thấp hơn dự kiến | Chi phí cố định 40 triệu/tháng tương đương 1.185 đ/việc ở 45.000 yêu cầu, 2.370 đ ở nửa khối lượng (simulated) | Số việc thành công theo tuần <50% kế hoạch | Không mở rộng; xem lại chi phí cố định | PM trợ lý hoàn phí |

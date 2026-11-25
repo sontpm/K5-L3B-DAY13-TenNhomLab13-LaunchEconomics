@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: TenNhomLab13
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-TenNhomLab13-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
 - URL repo, nhánh nộp, commit chốt: `https://github.com/sontpm/K5-L3B-DAY13-TenNhomLab13-LaunchEconomics` (nhánh đang phát triển phần TV1: `sontpm`)
@@ -92,8 +92,11 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Đóng góp cụ thể
 
-- Cập nhật các kết quả và phần việc đã hoàn thành sau từng checkpoint.
+- Gắn nhãn độc lập 20 ca; đối chiếu với thành viên 3 đạt 18/20 ca (90%). Hai ca lệch là 6 và 9, thống nhất nguyên nhân gốc là đầu vào khách hàng sai.
+- Phối hợp hoàn thiện bảng khắc phục cho năm loại lỗi trong `report/team/bang_loi.md`.
+- Tổng hợp các kết quả đã có bằng chứng vào `report/team/ho_so_launch_v0.md`; báo cáo nhóm và phiếu chấm được hoàn thiện theo kết quả duyệt chéo.
 
 ### Bằng chứng
 
-- Bổ sung file, commit hoặc kết quả cụ thể sau khi hoàn thành các phần việc.
+- `report/team/bang_loi.md`: hai bộ nhãn, đồng thuận 18/20 và bảng khắc phục năm ca.
+- `report/team/ho_so_launch_v0.md`: tóm tắt các kết quả A–E đã được nhóm kiểm tra.
