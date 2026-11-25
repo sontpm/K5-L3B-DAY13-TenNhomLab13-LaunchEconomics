@@ -9,12 +9,12 @@
 
 ## Thành viên
 
-| STT | Họ tên | MSSV | Email | GitHub | Vai trò |
-| --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Trần Phạm Minh Sơn | 2A202603802 | 26ai.sontpm@vinuni.edu.vn | sontpm | Người viết code (nửa đầu: A, B) & Event (E1) |
-|   2 |   Nguyễn Quang Huy     |   2A202603768   |   26ai.huynq13@vinuni.edu.vn    |    nguyenquanghuy091204    |    Người kiểm số (A, B) & Người viết code (nửa sau: D, E1)     |
-|   3 | Đỗ Minh Thanh | 2A202603793 | 26ai.thanhdm@vinuni.edu.vn | thd050810 | Người gắn nhãn 1 (C) & kế hoạch pilot (D2–D3) |
-|   4 | Đào Nguyễn Quang Thanh | 2A202603754 | 26ai.thanhdnq@vinuni.edu.vn | ThanhDao11 | Người gắn nhãn 2 kiêm giữ hồ sơ tổng |
+|  STT | Họ tên                 | MSSV        | Email                       | GitHub               | Vai trò                                                 |
+| ---: | ---------------------- | ----------- | --------------------------- | -------------------- | ------------------------------------------------------- |
+|    1 | Trần Phạm Minh Sơn     | 2A202603802 | 26ai.sontpm@vinuni.edu.vn   | sontpm               | Người viết code (nửa đầu: A, B) & Event (E1)            |
+|    2 | Nguyễn Quang Huy       | 2A202603768 | 26ai.huynq13@vinuni.edu.vn  | nguyenquanghuy091204 | Người kiểm số (A, B) & Người viết code (nửa sau: D, E1) |
+|    3 | Đỗ Minh Thanh          | 2A202603793 | 26ai.thanhdm@vinuni.edu.vn  | thd050810            | Người gắn nhãn 1 (C) & viết phần chữ (A, B, D, E2)      |
+|    4 | Đào Nguyễn Quang Thanh | 2A202603754 | 26ai.thanhdnq@vinuni.edu.vn | ThanhDao11           | Người gắn nhãn 2 kiêm giữ hồ sơ tổng                    |
 
 Bốn vai của lab:
 
@@ -70,17 +70,19 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Phần việc phụ trách
 
 - Thành viên 3 — Người gắn nhãn 1: gắn nhãn 20 ca lỗi theo PAIR, đối chiếu với Người gắn nhãn 2, tính đồng thuận, viết quy tắc phân biệt và bảng khắc phục 5 loại lỗi (Nhiệm vụ C).
-- Hoàn thiện kế hoạch pilot `report/team/pilot_plan.yaml` (Nhiệm vụ D2–D3).
+- Viết phần chữ: câu trả lời A, B trong `report/team/bang_chi_phi.md`; kế hoạch pilot `report/team/pilot_plan.yaml` (Nhiệm vụ D); hai chỉ số mới và bảng rủi ro kinh tế trong `report/team/chi_so.md` (Nhiệm vụ E2).
 
 ### Đóng góp cụ thể
 
 - Gắn nhãn 20 ca, đồng thuận 18/20 = 90% với Người gắn nhãn 2; hai ca lệch (6, 9) thống nhất là Do người dùng, kèm quy tắc "đầu vào của khách sai thì gắn Do người dùng".
 - Bảng khắc phục 5 ca (9, 20, 18, 4, 12): mỗi ca có event đo được, ngưỡng, tần suất và một vai trò phụ trách.
+- `bang_chi_phi.md`: sáu câu trả lời A2–B4, mỗi câu có số và nhãn simulated (16,3× hoá đơn; làm lại 51,8%; loại `quoc_te` 1,88×; hoà vốn ~6.200 yêu cầu/tháng; 2 lần chạy rẻ nhất cho cả hệ thống; hoà vốn xem lại ≤ 5,1 phút).
+- `chi_so.md`: thêm chỉ số Dùng (trung vị `phut_xem_lai`) và An toàn (tỉ lệ hoàn sai/hoàn trùng); ba dòng rủi ro kinh tế lấy số từ B1, B4.
 - `pilot_plan.yaml`: chia theo nhân viên, 20 cụm mỗi nhóm, MDE 6 điểm (DE 6,96), năm câu D2, ba luật dừng đủ bốn vế, rollback, ngày quyết định 2027-01-05, danh sách số simulated.
 
 ### Bằng chứng
 
-- `report/team/bang_loi.md`, `report/team/pilot_plan.yaml` (đọc được bằng `yaml.safe_load`, không còn dấu hỏi ngoài chú thích), báo cáo cá nhân `report/team/2A202603793_DoMinhThanh.md`.
+- `report/team/bang_loi.md`, `report/team/bang_chi_phi.md`, `report/team/chi_so.md`, `report/team/pilot_plan.yaml` (đọc được bằng `yaml.safe_load`, không còn dấu hỏi ngoài chú thích), báo cáo cá nhân `report/team/2A202603793_DoMinhThanh.md`.
 
 ## DaoNguyenQuangThanh-2A202603754
 

@@ -7,8 +7,8 @@
 | Chính (kết quả) | % yêu cầu đóng trong 24 giờ và không mở lại trong 7 ngày | `dong_trong_24h` bằng 1 và `mo_lai_trong_7_ngay` bằng 0, chia tổng số yêu cầu | Chỉ số trong đợt chạy thử là 82,83% (994/1.200) |
 | Dùng | Tỉ lệ bỏ qua gợi ý | `quyet_dinh_xem_lai` là `sua` hoặc `bo`, chia số yêu cầu được xem lại | Chỉ số trong đợt chạy thử là 27,12% (48/177) |
 | An toàn | Tỉ lệ lỗi lọt đến khách | `mo_lai_trong_7_ngay` bằng 1, chia tổng số yêu cầu | Chỉ số trong đợt chạy thử là 4,25% (51/1.200) |
-| Dùng | Nhóm tự đề xuất: ... | ... | Không cần tính |
-| An toàn | Nhóm tự đề xuất: ... | ... | Không cần tính |
+| Dùng | Nhóm tự đề xuất: thời gian xem lại trung vị mỗi gợi ý (phút) | Trung vị `phut_xem_lai` của `staff_review_decision` trong nhóm trợ lý; so với ngưỡng hoà vốn 5,1 phút ở B4 (simulated) | Không cần tính |
+| An toàn | Nhóm tự đề xuất: tỉ lệ hoàn tiền sai số tiền hoặc hoàn trùng | Số `refund_ledger_write` trùng `idempotency_key` cộng số `audit_sample_checked` có `so_tien_da_hoan` khác `so_tien_dung`, chia số giao dịch hoàn tiền | Không cần tính |
 
 Viết "chỉ số trong đợt chạy thử là …", không viết "trợ lý đã nâng chỉ số": đợt chạy thử không có nhóm đối chứng.
 
@@ -43,5 +43,6 @@ Viết "chỉ số trong đợt chạy thử là …", không viết "trợ lý 
 
 | Rủi ro | Tác động đã tính | Dấu hiệu theo dõi | Hành động | Người phụ trách |
 | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+| Số ca làm lại tăng (gợi ý sai phải làm lại) | Làm lại gấp đôi: chi phí mỗi việc thành công 4.472 → 6.787 đ (+51,8%, simulated), yếu tố mạnh nhất ở B2 | `phut_lam_lai` từ `staff_rework_completed`, trung bình tuần vượt 9 phút/ca hoặc số ca làm lại tăng 50% so với tuần đầu | Thu hẹp phạm vi về `noi_dia`, giới hạn 2 lần chạy | PM trợ lý hoàn phí |
+| Nhân viên phải xem lại gần như mọi gợi ý | Xem lại gấp đôi: +40,7% (6.292 đ, simulated); xem lại 100% `noi_dia` + `hang_nang`: 11.743–12.415 đ = 0,98–1,03× nhân viên tự làm (simulated) | Trung vị `phut_xem_lai` từ `staff_review_decision` vượt 5,1 phút/ca trong 1 tuần | Chuyển sang xem lại theo mẫu; nếu vẫn vượt thì đề xuất No-go ở ngày quyết định | Giám đốc vận hành LogiX-VN |
+| Lương nhân viên tăng | Lương tăng 25%: 5.506 đ (+23,1%, simulated) | Bảng lương quý mới của CSKH | Tính lại mô hình chi phí trước khi mở rộng | Trưởng nhóm CSKH |
