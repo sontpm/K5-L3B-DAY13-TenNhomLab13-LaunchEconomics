@@ -39,4 +39,4 @@
 
 ## 6. Tự đánh giá
 
-- Hoàn thành đầy đủ phần code A, B, phần event trong `chi_so.md` và báo cáo cá nhân, sẵn sàng bàn giao nhánh `sontpm` cho Thành viên 2 tiếp tục Nhiệm vụ D.
+- Hoàn thành đầy đủ phần code A, B, phần event trong `chi_so.md` và báo cáo cá nhân.

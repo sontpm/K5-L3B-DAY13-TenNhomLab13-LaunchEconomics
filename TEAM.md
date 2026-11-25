@@ -11,7 +11,7 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Trần Phạm Minh Sơn | 2A202603802 | sontpmit@gmail.com | sontpm | Người viết code (nửa đầu: A, B) & Event (E1) |
+|   1 | Trần Phạm Minh Sơn | 2A202603802 | 26ai.sontpm@vinuni.edu.vn | sontpm | Người viết code (nửa đầu: A, B) & Event (E1) |
 |   2 |        |      |       |        |         |
 |   3 |        |      |       |        |         |
 |   4 |        |      |       |        |         |
